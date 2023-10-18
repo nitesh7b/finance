@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quoted
+{% endblock %}
+
+{% block main %}
+<h1>Ticker</h1>
+<table style="width:75%">
+    <tr>
+      <th>Name</th>
+      <th>Price</th>
+      <th>Symbol</th>
+    </tr>
+    <tr>
+        <td>{{name}}</td>
+        <td>{{price}}</td>
+        <td>{{symbol}}</td>
+    </tr>
+
+
+  </table>
+
+
+{% endblock %}
